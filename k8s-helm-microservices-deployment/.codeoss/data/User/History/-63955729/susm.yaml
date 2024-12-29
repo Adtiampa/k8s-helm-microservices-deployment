@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: bookinfo-dev-ratings-mongodb-secret
+  namespace: bookinfo-dev
+type: Opaque
+data:
+  mongodb-root-password: "cmF0aW5nLXByZC1yb290=="
+  mongodb-password: "cmF0aW5nLXByZC1yb290="
+  mongodb-passwords: "cmF0aW5nLXByZC1yb290=" #version config from bitnami/mongodb:4.4.4-debian-10-r27 to bitnami/mongodb:8.0.4-debian-12-r0
+  

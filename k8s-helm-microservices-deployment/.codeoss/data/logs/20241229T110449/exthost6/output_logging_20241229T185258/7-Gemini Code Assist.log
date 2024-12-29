@@ -1,0 +1,78 @@
+I1229 18:53:15.332487   15819 serve.go:43] cloudcode_cli (Nov 13 2024 17:36:46 -0800, cl:696214359 baseline:694242577)
+I1229 18:53:15.332534   15819 serve.go:44] Command line: ["/home/g65050972/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1229 18:53:15.334433   15819 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I1229 18:53:15.453660   15819 configuration.go:182] product updateChannel will be used
+W1229 18:53:15.453713   15819 configuration.go:783] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W1229 18:53:15.453727   15819 configuration.go:783] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I1229 18:53:15.453745   15819 configuration.go:636] language thresholds: map[]
+I1229 18:53:15.453763   15819 configuration.go:594] dataFileExtensions array: [.csv .tsv .jsonl]
+I1229 18:53:15.453784   15819 configuration.go:836] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001627fd1 StopSequences:map[] DataFilePromptLines:0}
+I1229 18:53:15.453819   15819 configuration.go:836] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001627fe1 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1229 18:53:15.453977   15819 configuration.go:264] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1229 18:53:15.454015   15819 configuration.go:272] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false}
+I1229 18:53:15.454025   15819 configuration.go:276] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I1229 18:53:15.454064   15819 configuration.go:278] Configured settings for canCancelRequests: true
+I1229 18:53:15.454074   15819 configuration.go:280] Configured settings for contextPromptOpts: &{Endpoint:}
+W1229 18:53:15.455512   15819 configuration.go:284] Failed to retrieve verboseLogging: configuration value not is not a string: false
+I1229 18:53:15.505933   15819 handler.go:159] cancel was requested for: 1, needs to be canceled: false
+I1229 18:53:15.505952   15819 handler.go:163] cancel requested for 1 but not found
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":9,"character":2}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":9,"character":56}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+I1229 18:54:15.456312   15819 life_cycle.go:294] codeReportEvery: recomputing codereport metric
+I1229 19:03:15.456447   15819 life_cycle.go:258] codeReportBasicEvery: recomputing codereportbasic metric
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":9,"character":41}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":9,"character":40}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":9,"character":41}, triggerKind=1
+Completion Provider - completion # 4 - Completion result obtained from language client
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":9,"character":40}, triggerKind=1
+Completion Provider - completion # 5 - Completion result obtained from language client
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":9,"character":41}, triggerKind=1
+Completion Provider - completion # 6 - Completion result obtained from language client
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":9,"character":42}, triggerKind=1
+Completion Provider - completion # 7 - Completion result obtained from language client
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":9,"character":43}, triggerKind=1
+Completion Provider - completion # 8 - Completion result obtained from language client
+Completion Provider - completion # 9 - New completion requested from language client at position {"line":9,"character":44}, triggerKind=1
+Completion Provider - completion # 9 - Completion result obtained from language client
+Completion Provider - completion # 10 - New completion requested from language client at position {"line":9,"character":45}, triggerKind=1
+Completion Provider - completion # 10 - Completion result obtained from language client
+Completion Provider - completion # 11 - New completion requested from language client at position {"line":9,"character":46}, triggerKind=1
+Completion Provider - completion # 11 - Completion result obtained from language client
+Completion Provider - completion # 12 - New completion requested from language client at position {"line":9,"character":47}, triggerKind=1
+Completion Provider - completion # 12 - Completion result obtained from language client
+Completion Provider - completion # 13 - New completion requested from language client at position {"line":9,"character":48}, triggerKind=1
+Completion Provider - completion # 13 - Completion result obtained from language client
+Completion Provider - completion # 14 - New completion requested from language client at position {"line":9,"character":49}, triggerKind=1
+Completion Provider - completion # 14 - Completion result obtained from language client
+Completion Provider - completion # 15 - New completion requested from language client at position {"line":9,"character":50}, triggerKind=1
+Completion Provider - completion # 15 - Completion result obtained from language client
+Completion Provider - completion # 16 - New completion requested from language client at position {"line":9,"character":51}, triggerKind=1
+Completion Provider - completion # 16 - Completion result obtained from language client
+Completion Provider - completion # 17 - New completion requested from language client at position {"line":9,"character":52}, triggerKind=1
+Completion Provider - completion # 17 - Completion result obtained from language client
+Completion Provider - completion # 18 - New completion requested from language client at position {"line":9,"character":53}, triggerKind=1
+Completion Provider - completion # 18 - Completion result obtained from language client
+Completion Provider - completion # 19 - New completion requested from language client at position {"line":9,"character":52}, triggerKind=1
+Completion Provider - completion # 19 - Completion result obtained from language client
+Completion Provider - completion # 20 - New completion requested from language client at position {"line":9,"character":53}, triggerKind=1
+Completion Provider - completion # 20 - Completion result obtained from language client
+Completion Provider - completion # 21 - New completion requested from language client at position {"line":9,"character":54}, triggerKind=1
+Completion Provider - completion # 21 - Completion result obtained from language client
+Completion Provider - completion # 22 - New completion requested from language client at position {"line":9,"character":55}, triggerKind=1
+Completion Provider - completion # 22 - Completion result obtained from language client
+Completion Provider - completion # 23 - New completion requested from language client at position {"line":9,"character":56}, triggerKind=1
+Completion Provider - completion # 23 - Completion result obtained from language client
+Completion Provider - completion # 24 - New completion requested from language client at position {"line":9,"character":57}, triggerKind=1
+Completion Provider - completion # 24 - Completion result obtained from language client
+Completion Provider - completion # 25 - New completion requested from language client at position {"line":9,"character":59}, triggerKind=1
+Completion Provider - completion # 25 - Completion result obtained from language client
+Completion Provider - completion # 26 - New completion requested from language client at position {"line":9,"character":60}, triggerKind=1
+Completion Provider - completion # 26 - Completion result obtained from language client
+Completion Provider - completion # 27 - New completion requested from language client at position {"line":9,"character":61}, triggerKind=1
+Completion Provider - completion # 27 - Completion result obtained from language client
+I1229 19:04:15.456270   15819 life_cycle.go:294] codeReportEvery: recomputing codereport metric
+I1229 19:13:15.456362   15819 life_cycle.go:258] codeReportBasicEvery: recomputing codereportbasic metric

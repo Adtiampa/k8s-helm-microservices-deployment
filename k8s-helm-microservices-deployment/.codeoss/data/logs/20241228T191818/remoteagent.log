@@ -1,0 +1,22 @@
+2024-12-28 19:18:18.483 [info] 
+
+
+
+
+2024-12-28 19:18:18.510 [info] Extension host agent started.
+2024-12-28 19:18:20.236 [info] [127.0.0.1][fc600d11][ManagementConnection] New connection established.
+2024-12-28 19:18:20.241 [info] [127.0.0.1][6f056541][ExtensionHostConnection] New connection established.
+2024-12-28 19:18:21.927 [info] [127.0.0.1][6f056541][ExtensionHostConnection] <1898> Launched Extension Host Process.
+2024-12-28 19:18:41.176 [info] [127.0.0.1][fc600d11][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-28 20:56:48.993 [info] [127.0.0.1][5177268d][ManagementConnection] New connection established.
+2024-12-28 20:56:49.036 [info] [127.0.0.1][d96d4cc6][ExtensionHostConnection] New connection established.
+2024-12-28 20:56:49.041 [info] [127.0.0.1][d96d4cc6][ExtensionHostConnection] <79945> Launched Extension Host Process.
+2024-12-28 21:00:31.805 [info] Getting Manifest... redhat.vscode-yaml
+2024-12-28 21:00:33.547 [info] Installing extension: redhat.vscode-yaml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/g65050972/.codeoss/extensions/extensions.json","external":"file:///home/g65050972/.codeoss/extensions/extensions.json","path":"/home/g65050972/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2024-12-17T08:14:37.330Z"}}
+2024-12-28 21:00:37.480 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2024-12-28 21:00:37.481 [info] Extension signature verification is not done: redhat.vscode-yaml
+2024-12-28 21:00:37.602 [info] Extracted extension to file:///home/g65050972/.codeoss/extensions/redhat.vscode-yaml-1.15.0-universal: redhat.vscode-yaml
+2024-12-28 21:00:37.610 [info] Renamed to /home/g65050972/.codeoss/extensions/redhat.vscode-yaml-1.15.0-universal
+2024-12-28 21:00:37.625 [info] Extension installed successfully: redhat.vscode-yaml file:///home/g65050972/.codeoss/extensions/extensions.json
+2024-12-28 21:01:49.251 [info] [127.0.0.1][6f056541][ExtensionHostConnection] <1898> Extension Host Process exited with code: 0, signal: null.
+2024-12-28 21:12:41.550 [info] [127.0.0.1][5177268d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
