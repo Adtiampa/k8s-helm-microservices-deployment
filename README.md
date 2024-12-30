@@ -20,7 +20,28 @@ This project demonstrates the deployment and management of microservices (detail
 
 ## Setup Instructions
 
-### Clone the Repository
+### Clone the Repository - EXAMPLE
 ```bash
 git clone https://github.com/yourusername/k8s-helm-microservices-deployment.git
 cd k8s-helm-microservices-deployment
+
+## Configure Helm Values
+
+**1.Navigate to the values/ directory.
+**2.Update the environment-specific values (uat-values.yaml, prod-values.yaml).
+
+## Deploy to UAT
+```bash
+kubectl config use-context uat-context
+helm install mongodb-release -f values/uat-values.yaml charts/mongodb
+helm install ratings-release -f values/uat-values.yaml charts/ratings
+
+## Deploy to Production
+```bash
+kubectl config use-context prod-context
+helm install mongodb-release -f values/prod-values.yaml charts/mongodb
+helm install ratings-release -f values/prod-values.yaml charts/ratings
+
+
+
+
