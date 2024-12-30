@@ -22,15 +22,3 @@ This project demonstrates the deployment and management of microservices (detail
 - Access to Bitnami MongoDB images
 
 ---
-
-## Setup Instructions -- EXAMPLE
-
-### Configure Helm Values
-- Navigate to the `values/` directory.
-- Update environment-specific values (`uat-values.yaml` and `prod-values.yaml`).
-
-### Deploy to UAT
-```bash
-kubectl config use-context uat-context
-helm install mongodb-release -f values/uat-values.yaml charts/mongodb
-helm install ratings-release -f values/uat-values.yaml charts/ratings
