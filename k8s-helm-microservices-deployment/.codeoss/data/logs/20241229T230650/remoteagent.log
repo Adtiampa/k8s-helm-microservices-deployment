@@ -1,9 +1,0 @@
-2024-12-29 23:06:50.763 [info] 
-
-
-
-
-2024-12-29 23:06:50.797 [info] Extension host agent started.
-2024-12-29 23:06:52.792 [info] [127.0.0.1][ef1e3978][ManagementConnection] New connection established.
-2024-12-29 23:06:52.837 [info] [127.0.0.1][a8708c1e][ExtensionHostConnection] New connection established.
-2024-12-29 23:06:54.124 [info] [127.0.0.1][a8708c1e][ExtensionHostConnection] <1198> Launched Extension Host Process.
