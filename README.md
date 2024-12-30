@@ -1,6 +1,8 @@
 # k8s-helm-microservices-deployment
 🚀 Kubernetes and Helm-based Deployment for Microservices
 
+![Project Banner](https://github.com/Adtiampa/k8s-helm-microservices-deployment/blob/main/mrt-modal-during-campaign.png)
+
 This project demonstrates the deployment and management of microservices (details, reviews, productpage, and MongoDB) using Kubernetes and Helm. It includes environments for UAT and Production and highlights advanced Helm configurations.
 
 ---
